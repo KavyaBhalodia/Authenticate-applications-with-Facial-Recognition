@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    
+    <p>An error occurred while uploading your image. Please try again later.</p>
+    {% if error %}
+      <p>Error details: {{ error }}</p>
+    {% endif %}
+  </body>
+</html>
